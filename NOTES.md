@@ -33,7 +33,7 @@ Given a number, return an array, containing 3 integers, each representing the nu
 ## Plans
 
 - ✅ '0 should return [0, 0, 0]'
-- ⚠  '6 should return [0, 2, 0]'
+- ✅  '6 should return [0, 2, 0]'
 - ⚠  '2 should return [2, 0, 0]'
 - ⚠  '98 should return [0, 1, 0]'
 - ⚠  '54 should return [0, 0, 0]'
