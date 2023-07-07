@@ -13,7 +13,11 @@ describe('handsUp', () => {
     expect(handsUp(2)).toStrictEqual([2, 0, 0]);
   });
 
-  it('98 should return [0, 1, 0]', () => {
+  it('98 should return [2, 2, 1]', () => {
     expect(handsUp(98)).toStrictEqual([2, 2, 1]);
+  });
+
+  it('54 should return [0, 0, 0]', () => {
+    expect(handsUp(54)).toStrictEqual([0, 0, 0]);
   });
 });
