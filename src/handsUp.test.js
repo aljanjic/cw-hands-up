@@ -12,4 +12,8 @@ describe('handsUp', () => {
   it('2 should return [2, 0, 0]', () => {
     expect(handsUp(2)).toStrictEqual([2, 0, 0]);
   });
+
+  it('98 should return [0, 1, 0]', () => {
+    expect(handsUp(98)).toStrictEqual([2, 2, 1]);
+  });
 });
