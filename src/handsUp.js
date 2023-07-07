@@ -1,5 +1,5 @@
 function handsUp() {
-  return 'hello';
+  return  [0, 0, 0];
 }
 
 module.exports = handsUp;
